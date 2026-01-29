@@ -2,7 +2,7 @@ clear; clc;
 
 %% ===== USER CONSTANTS =====
 ell  = 0.225;          % [m] TVC moment arm
-D    = 0.4;            % [m] body diameter
+D    = 0.079;            % [m] body diameter
 Lref = D;              % reference length
 S    = pi*D^2/4;       % reference area
 Iyy  = .007272;        % [kg*m^2] constant pitch inertia
