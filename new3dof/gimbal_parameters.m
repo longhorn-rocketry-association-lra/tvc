@@ -5,6 +5,6 @@ zeta = 0.8;    % damping ratio
 max_degree = 7;
 
 %% Transfer Function
-numerator = [wn^2];
-denominator = [1 2*zeta*wn wn^2];
+Ys = [wn^2];
+Us = [1 2*zeta*wn wn^2];
  
